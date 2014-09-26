@@ -1,0 +1,110 @@
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #d95977;
+	font-size: 2.6em;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #d95977;
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #2E2E2E;
+
+}
+
+h6 {
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;;
+	color: #AFAFAF;
+	letter-spacing: 0.10em;
+}
+
+p, td, form {
+	font-family: Arial;
+	line-height: 150%;
+}
+
+textarea, input {
+	border-radius: 4px;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+
+
+
+#top-bar{
+	background-color: #d95977;
+	height: 10px;
+}
+
+#title-content{
+	text-align: center;
+}
+
+#title-content a{
+	text-decoration: none;
+	color: #d95977;
+}
+
+#nav-bar li {
+	display: inline;
+	padding: 10px;
+}
+
+#nav-bar a {
+	color: #848484;
+	text-decoration: none;
+
+}
+
+#nav-bar a:hover {
+	color: black;
+}
+
+#footer {
+	margin-top: 25px;
+}
+#footer li {
+	display: inline;
+	padding: 10px;
+	font-size: 10px;
+}
+
+#footer a {
+	color: black;
+}
+
+#line-divide {
+	background-color: black;
+	height: 1px;
+	margin: 10px;
+}
+
+#content {
+	width: 800px;
+	text-align: left;
+}
+
+#about-table td {
+	vertical-align: top;
+	padding: 5px;
+}
+
+#sponsor-table td {
+	vertical-align: top;
+	padding: 5px;
+	text-align: center;
+}
+
+.bubble {
+	border-radius: 4px;
+	border: 4px solid #fff;
+	box-shadow: 0 1px 4px rgba(0,0,0,.2);
+	margin: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
