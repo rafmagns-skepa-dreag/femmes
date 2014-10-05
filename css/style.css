@@ -1,0 +1,169 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #d95977;
+	font-size: 2.6em;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #d95977;
+	font-size: 20px;
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #2E2E2E;
+	font-size: 20px;
+	font-weight: bold; 
+
+}
+
+h6 {
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;;
+	color: #AFAFAF;
+	letter-spacing: 0.10em;
+	font-size: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+p, td, form {
+	font-family: Arial;
+	line-height: 150%;
+}
+
+textarea, input {
+	border-radius: 4px;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+
+
+
+#top-bar{
+	background-color: #d95977;
+	height: 10px;
+}
+
+#title-content{
+	text-align: center;
+}
+
+#title-content a{
+	text-decoration: none;
+	color: #d95977;
+}
+
+#nav-bar li {
+	display: inline;
+	padding: 10px;
+}
+
+#nav-bar a {
+	color: #848484;
+	text-decoration: none;
+
+}
+
+#nav-bar a:hover {
+	color: black;
+}
+
+#footer {
+	margin-top: 25px;
+}
+#footer li {
+	display: inline;
+	padding: 10px;
+	font-size: 10px;
+}
+
+#footer a {
+	color: black;
+}
+
+#line-divide {
+	background-color: black;
+	height: 1px;
+	margin: 10px;
+}
+
+#content {
+	width: 800px;
+	text-align: left;
+}
+
+#about-table td {
+	vertical-align: top;
+	padding: 5px;
+}
+
+#sponsor-table td {
+	vertical-align: top;
+	padding: 5px;
+	text-align: center;
+}
+
+.bubble {
+	border-radius: 4px;
+	border: 4px solid #fff;
+	box-shadow: 0 1px 4px rgba(0,0,0,.2);
+	margin: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
