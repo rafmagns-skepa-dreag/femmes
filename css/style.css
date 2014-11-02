@@ -148,7 +148,10 @@ textarea, input {
 
 #about-table td {
 	vertical-align: top;
-	padding: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #sponsor-table td {
@@ -167,3 +170,4 @@ textarea, input {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
