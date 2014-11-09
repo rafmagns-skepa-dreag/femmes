@@ -112,6 +112,10 @@ textarea, input {
 	padding: 10px;
 }
 
+#twitter-nav{
+	padding: 0px!important;
+}
+
 #nav-bar a {
 	color: #848484;
 	text-decoration: none;
