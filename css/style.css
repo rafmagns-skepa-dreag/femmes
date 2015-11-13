@@ -8,7 +8,20 @@
 */
 
 /* Basic */
-
+    .collage {
+        margin:10px;
+        width:650px;
+    }
+    .content {
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: center;
+        width:800px;
+    }
+    #codecamp {
+        float:left;
+        margin:50px;
+    }
     #volunteer {
         color: white;
     }
