@@ -22,6 +22,9 @@
         float:left;
         margin:50px;
     }
+    .codecamp {
+    		margin : 0 0 3.5em 0;
+    }
     #volunteer {
         color: white;
     }
@@ -1009,6 +1012,10 @@
 			color: #ffffff !important;
 			cursor: default;
 			opacity: 0.25;
+		}
+
+		.button.wide {
+			padding: 0 8em;
 		}
 
 /* Goto Next */
