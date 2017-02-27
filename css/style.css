@@ -20,8 +20,8 @@
     }
     #codecamp {
         float:left;
-	/*margin: 0px 50px 0px 0px;*/
-        margin:50px;
+	margin: 50px 50px 0px 0px;
+        /*margin:50px;*/
     }
     .codecamp {
     		margin : 0 0 3.5em 0;
